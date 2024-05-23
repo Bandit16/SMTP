@@ -1,0 +1,114 @@
+/* General styles */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    background-color: #f7f9fc;
+
+}
+
+/* Container styles */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styles */
+.container__title {
+    margin: 0 0 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #333333;
+    /* margin-top: 10px; */
+}
+
+.container-form {
+    background: #ae6464;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* Form styles */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainForm {
+    margin-bottom: 20px;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+    color: #555555;
+}
+
+.form__input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form__input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.form__submit {
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form__submit:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 0 10px;
+    }
+}
+
+
+/* ---------------------------------------- */
+
+.card-img-top {
+    display: flex;
+    height: 300px;
+
+}
